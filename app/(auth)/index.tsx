@@ -60,11 +60,11 @@ const OnboardingScreen = () => {
           style={[GlobalStyles.margin_t_sm, styles.header]}
           resizeMode="cover"
         >
-          <Image
+          {/* <Image
             source={require('@/assets/images/mainLogo-white.png')}
             style={[GlobalStyles.logo, GlobalStyles.margin_sm]}
             resizeMode="contain"
-          />
+          /> */}
           <View style={[GlobalStyles.padding_sm]}>
             <View style={GlobalStyles.margin_b_sm}>
               <Text style={[combineStyles(GlobalStyles, 'font_lighter', 'text_5xl', 'color_white')]}>
